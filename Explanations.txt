@@ -1,0 +1,19 @@
+Before this we opened anaconda prompt pasted our folder location with cd beginning 
+then we wrote code . it opens VS with the folder
+
+In VS:
+first we create env in the folder = > conda create -p venv python==3.8 -y
+conda activate venv/ to activate the env use cmd promt here!
+
+we need to clone and sync with github. with git init
+We created our readme here.
+then git add README.md after we commit git commit -m "First Commit"
+to check git status we can simple write git status!
+
+git remote add origin https://github.com/flyingriverhorse/mlproject.git
+git remote -v
+git branch -M main
+
+to push: git push -u origin main
+
+to see your which acc connected git config --global user.email
