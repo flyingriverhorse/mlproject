@@ -33,3 +33,28 @@ if we need 100 packages then we create function
 ------
 
 we created src folder and created __init__.py file directly consider src and build
+
+----
+we created in setup to read reqirement.txt function so we do not need to write each time. 
+
+now we can install requirements with pip install -r requirements.txt
+
+git add . git commit -m "SETUP" git push -u origin main 
+
+technically we can do directly from VS commiting. 
+
+
+
+----------
+src file we created components  file and created __init__.py this folder mainly for training
+
+-----
+pipeline training and prediction
+
+---
+
+we edited exception for errors 
+
+logger for log info from the message 
+
+to test python src/logger.py to check if everythin is fine!
