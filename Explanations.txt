@@ -17,3 +17,19 @@ git branch -M main
 to push: git push -u origin main
 
 to see your which acc connected git config --global user.email
+
+after we need to create .gitignore in repository and choose python 
+we can use after to sync git pull the changes.
+
+---------------
+
+After all We create setup.py and requirement.txt
+responsible of creating ML application as a package. We can also install this package in our projects. So with it help
+will be able to build entire machine learning application as a package and even deploy in py, anybody can use it.
+
+we wrote our code in it.
+
+if we need 100 packages then we create function
+------
+
+we created src folder and created __init__.py file directly consider src and build
