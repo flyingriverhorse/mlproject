@@ -35,7 +35,7 @@ class ModelTrainer:
             logging.info("Splitting training and testing input data")
             X_train, y_train, X_test, y_test = (
                 train_array[:, :-1],
-                #pick out the last column and feed it to the model
+                # Extract all rows and all columns except the last one (features for testing)
                 train_array[:, -1],
                 test_array[:, :-1],
                 test_array[:, -1],
