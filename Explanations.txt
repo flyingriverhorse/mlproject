@@ -43,7 +43,7 @@ git add . git commit -m "SETUP" git push -u origin main
 
 technically we can do directly from VS commiting. 
 
-
+git push -u origin main
 
 ----------
 src file we created components  file and created __init__.py this folder mainly for training
@@ -58,3 +58,9 @@ we edited exception for errors
 logger for log info from the message 
 
 to test python src/logger.py to check if everythin is fine!
+
+
+-----
+
+to install kernel
+conda install -p c:\Users\Murat\mlproject\venv ipykernel --update-deps --force-reinstall

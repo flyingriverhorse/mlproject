@@ -1,5 +1,5 @@
 import sys 
-import logging
+from src.logger import logging 
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
@@ -20,7 +20,7 @@ class CustomException(Exception):
 
 '''
 To test
-
+ 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 if __name__=="__main__":
     try:
@@ -30,7 +30,7 @@ if __name__=="__main__":
         #raise CustomException(e, sys)
         # Optionally exit the program gracefully
         sys.exit(1)
-'''    
+'''
 
     
 
